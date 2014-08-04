@@ -1,0 +1,1 @@
+题目要求输入你在hacker.org上的名字，我输入我的名字unlucky，返回错误的结果，并提示'ykculnu' is incorrect.观察了下发现ykculnu是unlucky的倒序，最后把ykculnu输入，通过。

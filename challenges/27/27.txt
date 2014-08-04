@@ -1,0 +1,1 @@
+题目是直接告诉你过关答案的，是marmelade。但是要求你用POST提交，默认是用GET的，我用的是Chrome，所以在审查元素里改下提交的表单method为POST，再点Submit就通过了。

@@ -1,0 +1,5 @@
+题目：
+print sum([x * (x - 1) for x in [y * y for y in xrange(3,11)]])
+
+输出：24936
+还不知道计算过程

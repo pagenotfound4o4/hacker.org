@@ -1,0 +1,12 @@
+题目先给出了一下的一段Java程序：
+public int bucketFromRandom(int randomNumber) {
+	int a[]	= new int[10];
+	for (int i = 0; i < a.length; i++)
+		a[i] = i * randomNumber;
+	int index = Math.abs(randomNumber) % a.length;
+	return a[index];
+}
+问randomNumber在何值时会抛出异常。
+因为有了一个%a.length，所以只有在index为负数时才能抛出异常，而现在这段代码又调用了abs函数，相当于负数取反+1，那么当randomNumber取int的最小值-2147483648时取绝对值后应该为-1，再取模后还为-1刚好能抛出异常。所以答案就是“-2147483648”。
+
+BTW，在VC编译器中a%b的值的符号取决于a的符号，数字值等于abs(a)%abs(b)

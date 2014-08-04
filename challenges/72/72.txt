@@ -1,0 +1,12 @@
+题目要求得到所给程序的输出，所给的程序是三个文件，random.adb，random.ads和testran.adb
+这是一个Ada程序，所以在Ubuntu上用apt-get命令下载Ada编译器
+[bash]sudo apt-get install gnat-4.6[/bash]
+再用以下命令编译、运行即可得到答案
+[bash]
+gcc -c testran.adb
+gcc -c random.adb
+gnatbing testran
+gnatlink testran
+./testran
+[/bash]
+答案是0.119355 0.254839

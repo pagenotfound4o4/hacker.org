@@ -1,0 +1,4 @@
+题目中说答案就是“spaghetti”，但是submit按钮点了没反应，看了下源代码，里面有一句onSubmit="return false"
+于是返回其他问题，观察了下问题提交的网址，发现是http://www.hacker.org/challenge/chal.php?answer=答案&id=当前题号&go=Submit这种类型的。
+于是就直接按着这个形式构造了网址提交，构造的网址是http://www.hacker.org/challenge/chal.php?answer=spaghetti&id=25&go=Submit，返回成功页面。
+PS:简单点可以利用Chrome中的源代码查看工具，可以直接修改源代码，删除onSubmit="return false"，然后点按钮提交也能成功。

@@ -1,0 +1,1 @@
+题目给出了一段文字，让我们与原文对比，不同点就是答案，这段文字出自Abraham Lincoln的“The Gettysburg Address”，与原文对比后发现多了单词“today”，于是这就是答案。

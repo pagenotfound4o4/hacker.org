@@ -1,0 +1,1 @@
+题目要求我们登陆http://www.adum.com/secureroom/的adum的账户，但是用户名和密码都没告诉我们。首先用户名可以猜一下就是adum。然后是密码，题目中已经告诉你暴力猜密码是行不通的，所以就要另辟蹊径了。之前简单学过SQL注入的方法，可以用它试一下。于是用户名是adum，密码是' or 1=1 or '，点击按钮，成功登入。看到答案为'dave rhodes makes serious cheddar'（不包括引号）。

@@ -1,0 +1,1 @@
+题目要求访问http://www.hacker.org/challenge/misc/one.php寻找答案，但是访问该网址时被重定向到了http://www.hacker.org/challenge/misc/two.php，用Wireshark抓包，发现http://www.hacker.org/challenge/misc/one.php重定向的包里面有一句X-hacker-answer: madreup\r\n于是答案就出来了，就是madreup

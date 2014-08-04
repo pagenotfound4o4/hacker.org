@@ -1,0 +1,1 @@
+观察源代码发现有段计算base64的js程序，最后看到计算结果等于“cXVlZW4lMjdzJTIwZ2FtYml0”就算正确。利用在线转换工具得到字符串“queen%27s%20gambit”，然后继续观察那段js程序，发现有个escape函数，该函数作用是将字符进行转意和编码，利用ASCII码表还原，得到答案“queen's gambit”。

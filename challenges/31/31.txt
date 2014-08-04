@@ -1,0 +1,5 @@
+题目给出一些盲文，这些盲文所对应的英文字母给出了过关提示
+英文盲文参考：http://en.wikipedia.org/wiki/English_Braille
+
+盲文对应的提示：the answer is soundofsilence
+所以答案就是soundofsilence
