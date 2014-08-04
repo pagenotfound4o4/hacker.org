@@ -15,7 +15,7 @@ public class RunawayRobotSolver {
 
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("usage: RunawayRobotSolver username password");
+            System.out.println("usage: javac RunawayRobotSolver username password");
         }
         username = args[0]; password = args[1];
 
