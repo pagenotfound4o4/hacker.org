@@ -1,0 +1,1 @@
+题目给出的是Brainfuck语言。把题目所给的程序放到http://esoteric.sange.fi/brainfuck/impl/interp/i.html这个online解释器中运行，得到答案“dewdrop”。
