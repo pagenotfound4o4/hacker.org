@@ -1,3 +1,0 @@
-题目给了一个satan.mp3文件，正常放是个奇怪的人声，尝试将其倒着放即可得到答案。具体做法就是在Linux里用Sox进行倒着播放
-[shell]play satan.mp3 reverse[/shell]
-最后的答案是insecticide（杀虫剂的意思）。

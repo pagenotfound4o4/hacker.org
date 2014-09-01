@@ -1,0 +1,14 @@
+题目要求输出如下java代码的结果
+public class UpCount {
+	private long calc(int depth) {
+		if (depth == 0) return 1;
+		long cc = calc(depth - 1);
+		return cc + (depth % 7) + ((((cc ^ depth) % 4) == 0) ? 1 : 0); 
+	}
+	public static void main(String[] args) {
+		UpCount uc = new UpCount();
+		System.out.println(uc.calc(11589));
+	}
+}
+因为这是递归程序，直接运行该程序会导致栈溢出。
+所以用C++改写该程序为迭代运算，得到结果38078

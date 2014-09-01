@@ -1,0 +1,1 @@
+题目给出了一个md5码，要求对其解密。找了个网站http://www.md5.com.cn/md5reverse。解密得到答案“flippit”。

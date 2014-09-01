@@ -1,1 +1,0 @@
-题目给出的仅仅是一串密文，因为标题提到“Substitute”，有替换之意，所以联想到替换加密的方法。故进行字母频率分析，并且一步步猜测，最后分析出来密文对应的明文为“all good hackers can solve basic cryptography. when you find the solution to this text, you will be able to get the answer, which is adumbrate.”。所以过关答案就是“adumbrate”。

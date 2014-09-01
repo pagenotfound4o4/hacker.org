@@ -1,1 +1,0 @@
-我用Django在服务器上写了一个网页，返回pewter scooter即可，也可用静态页面。

@@ -1,1 +1,0 @@
-网页源代码里发现一个js文件jsi.js，打开该js文件，发现如果answer等于farglesnort就返回true，所以答案就是farglesnort。

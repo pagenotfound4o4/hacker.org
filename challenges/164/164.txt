@@ -1,1 +1,0 @@
-首先将题目给的字符串根据16进制转换成ASCII字符，每个字符的分隔符为‘&#’，转换后可得到‘&weierp;&Otilde;&Ugrave;&real;&copy;&Theta;&fnof;&fnof;&isin;&isin;’，可以发现是html中的特殊字符。于是放进网页，猜测一下就能得出答案‘pourcoffee’。

@@ -1,2 +1,0 @@
-题目要求回到过去，打开的网页能显示你是什么用户，猜测需要修改User-Agent，在网上找到最早的浏览器是NCSA Mosaic，其User-Agent为“NCSA_Mosaic/2.0 (Windows 3.1)”。于是发送了一个包含该User-Agent的请求，得到的网页就包含了答案“Remember Eric Bina”。
-PS：Eric Bina是Mosaic的作者之一，也是Netscape创始人之一。

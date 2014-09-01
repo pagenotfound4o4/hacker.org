@@ -1,0 +1,1 @@
+题目页面嵌了一个Applet小程序用来检测密码正确性，先把这个jar下到本地并解压缩，得到“PasswordProtector$1.class”，“PasswordProtector$2.class”，“PasswordProtector.class”三个class文件。用JD-GUI将“PasswordProtector.class”反编译，看到Line 45的Java代码String s = Integer.toString(771772773);其中的“771772773”就是答案了。

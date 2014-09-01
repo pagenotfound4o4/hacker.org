@@ -1,0 +1,1 @@
+题目的难点在于如何让网站认为你是从http://whitehouse.gov跳转过来的，其实就是在HTTP的Headers中修改Referer为http://whitehouse.gov。同时答案也是“http://whitehouse.gov”。这个和X-Forwarded-For的区别是Referer表示从哪个地方跳转，而X-Forwarded-For表示你来自哪里。

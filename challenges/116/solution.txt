@@ -1,0 +1,1 @@
+题目让你访问一个网页，说是这个网页在一天中的某一分钟会告诉你答案，而其他时间只会显示'back later'。所以写了一个程序，每隔30s访问以下这个网页，检测是否获得了答案。最后得到网页上说'i declare the answer is gugglemuggle'。所以答案就是'gugglemuggle'。

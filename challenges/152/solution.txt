@@ -1,0 +1,1 @@
+将题目所给压缩包解压后发现是tcpdump抓的包，用wireshark打开，将里面的html和png文件保存到本地，然后打开，即可看到答案“blowin' in the wind”。

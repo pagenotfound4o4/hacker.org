@@ -1,3 +1,0 @@
-题目给了如下字符串要求解密后得到答案
-“Guvf zrffntr vf rapelcgrq va ebg 13. Lbhe nafjre vf svfupnxr.”
-感觉是凯撒密码，然后用i替换v得到va代表in，vf代表is，说明我的猜想是正确的，同时字符中有个13，和v与i的距离相等，也验证了我的猜想的正确性。偏移距离为13。于是编写C++程序，将原字符串中的字母用凯撒加密的解密方法解密，得到解密字符串“This message is encrypted in rot 13. Your answer is fishcake.”。于是答案显而易见就是“fishcake”

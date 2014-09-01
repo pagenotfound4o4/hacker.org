@@ -1,0 +1,1 @@
+和Protected Password 1类似，先将pp.jar下载至本地，解压缩后反编译PasswordProtector.class文件，发现这次正确密码是从一个网页http://www.hacker.org/challenge/misc/pwprot.php中获取的，将这个网址用Chrome打开，得到了过关密钥“pwnasoreass”。
