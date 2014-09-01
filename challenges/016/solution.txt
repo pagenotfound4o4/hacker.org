@@ -1,0 +1,1 @@
+通过题目下载到Privy.bin文件，用file命令查看该文件发现是java的class文件，修改后缀名为.class，然后用jd-gui反编译后分析showMeSomethingInteresting()方法可得到答案“kuakua”。
