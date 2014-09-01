@@ -1,0 +1,1 @@
+以16进制打开图片，提取可见字符为“these bytes are ascii text as you obviously guessed your answer is 'ilearnsogood'”。所以答案为“ilearnsogood”。
